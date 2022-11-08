@@ -1,0 +1,26 @@
+RewriteEngine On
+
+# stuff to let through (ignore)
+RewriteCond %{REQUEST_URI} "explore/"
+RewriteRule (.*) $1 [L]
+
+
+RewriteRule \.(css|js|png|jpg|gif|json|ttf)$ - [L,QSA]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ index.php?_path=$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/([^/]+)/?$ index.php?_path=$1/$2  [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)$ index.php?_path=$1&_view=$3  [QSA,L]
+
+
+
+
+RewriteRule ^/portfolio/explore?$ index.php?_path=home [QSA,L]

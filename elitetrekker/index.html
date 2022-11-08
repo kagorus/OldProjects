@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    
+    <head>
+        <title> Elite Trekker : Kagorus Inc</title>
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        
+        <script>
+            //window.onload = function(){star_data.forEach(show_values);};
+            
+        </script>
+    </head>
+    <body>
+<div class="body" >
+    
+    
+    <h1>Elite Trekker</h1> Welcome To Elite Trekker A New Tool To Run in Your
+    Browser to help you in your efforts to try and track your current exploration
+    trip, Please keep in mind Credits earned are approximate so both Min & Max 
+    values are given.
+    <h2> How To Use</h2><i>
+    To Use The Tool is Simple , In the 1st Box (Discovered) Type In How many
+    Objects of that type are already Discovered (By Another CMDR), The 2nd Box
+    is how many of the object you are "claiming" , the tool adds the two fields
+    up so a 1 in discovered and a 1 in 1st discoveries means that you've scanned
+    two objects of that type one is discovered and one is "claimed" by You.</i>
+    
+    <div class="Content" id ="Content">
+        <form id="system_input" style='display:table;'>
+            
+            
+            <label>System Name :</label> <input type="text" name="system_name" 
+                                 placeholder="System Name" class="system" > <br>
+            <label>Gas Giant Class I :</label> <input  type="number" min="0" name="0" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="0f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Gas Giant Class II :</label> <input type="number" min="0" name="1" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="1f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Gas Giant Class III :</label> <input type="number" min="0" name="2" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="2f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Gas Giant Class IV :</label> <input type="number" min="0" name="3" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="3f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Gas Giant Class V :</label> <input type="number" min="0" name="4" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="4f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Rocky and/or Icy :</label> <input type="number" min="0" name="5" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="5f"
+                                       placeholder="1st Discoveries"><br>
+            <label>High Metal Content :</label> <input type="number" min="0" name="6" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="6f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Terraformable Rocky :</label> <input type="number" min="0" name="7" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="7f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Terraformable High Metal :</label> <input type="number" min="0" name="8" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="8f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Terraformable High Metal Content with Life :</label> <input type="number" min="0" name="9" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="9f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Metal-Rich :</label> <input type="number" min="0" name="10" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="10f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Water World :</label> <input type="number" min="0" name="11" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="11f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Terraformable Water World :</label> <input type="number" min="0" name="12" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="12f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Ammonia World :</label> <input type="number" min="0" name="13" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="13f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Earth-like :</label> <input type="number" min="0" name="14" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="14f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Star (O,B,A,F,G,K,M,L,T,Y) :</label> <input type="number" min="0" name="15" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="15f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Black Hole :</label> <input type="number" min="0" name="16" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="16f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Neutron Star :</label> <input type="number" min="0" name="17" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="17f"
+                                       placeholder="1st Discoveries"><br>
+            <label>White Dwarf :</label> <input type="number" min="0" name="18" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="18f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Wolf-Rayet :</label> <input type="number" min="0" name="19" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="19f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Carbon Star :</label> <input type="number" min="0" name="20" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="20f"
+                                       placeholder="1st Discoveries"><br>
+            <label>Protostar - (Herbig Ae/Be, T-Tauri) :</label> <input type="number" min="0" name="21" 
+                                       placeholder="Discovered">
+                                <input type="number" min="0" name="21f"
+                                       placeholder="1st Discoveries"><br>
+                                
+        </form>
+        <button onclick="build_array()"> Add System</button>
+        
+    </div>
+</div> 
+    
+    <div class="footer">
+    Elite Trekker - Kagorus Inc (Nathan Powell) 2016 | All Rights Reserved | Elite Trip 
+    was created using assets and imagery from Elite: Dangerous, with the 
+    permission of Frontier Developments plc, for non-commercial purposes. It is 
+    not endorsed by nor reflects the views or opinions of Frontier Developments 
+    and no employee of Frontier Developments was involved in the making of it. 
+    | Contact : <a href="mailto:admin@kagorus.net">admin@kagorus.net</a>
+    <hr>
+    <i>
+    Enjoying The Tool? Consider Donating To Help Keep Development Going Or To
+    Show Your appreciation for all the hard work, Thanks For Using Tripper Elite!
+    <button onclick='window.open("https://www.twitchalerts.com/donate/kagorus", 
+      "_blank", "location=yes,height=900,width=650,scrollbars=yes,status=yes");
+      '>Donate!</button>
+    </i>
+    <hr>
+    <button onclick="localStorage.Trip_Data='';location.reload();" >Wipe Data</button>
+    <button onclick="last_trip()" >Show Last System</button>
+    <button onclick="" >Show Mini Details</button>
+    </div>
+        <script type="text/javascript" src="js/templates.js"></script>
+        <script type="text/javascript" src="js/values.js"></script>
+        <script type="text/javascript" src="js/core.js"></script>
+        <script>window.onLoad = load_trip();</script>
+    </body>
+</html>
+

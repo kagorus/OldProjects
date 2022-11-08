@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-Feb-2017, 22:04:50
+    Author     : Kagorus
+*/
+@font-face {
+    font-family: 'eurocaps'; /*a name to be used later*/
+    src: url('EUROCAPS.ttf'); /*URL to font*/
+}
+html{
+    background-color:black;
+    background-image:url("../img/minibgpng.png"),url("../img/bg.png");
+    /*background-color:#666;*/
+    color:rgb(255,119,0);
+    font-family: 'eurocaps';
+    font-size: 15px;
+    height:80%;
+    background-attachment: fixed;
+}
+hr{
+    border-color:rgb(255,119,0);
+}
+i{
+    font-size:12px;
+}
+input[type="file"] {
+    display: none;
+    
+}
+.custom-file-upload , input[type="button"]{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color:rgb(255,119,0);
+    background-color:rgba(0,0,0,0);
+}
+div.mainBody{
+    height:auto;
+    width:600px; 
+    box-shadow: 0px 0px 5px rgb(255,255,255);
+    background-image:url("../img/minibgcontent.png");
+    margin:auto;
+}
+
+a {
+    color:rgb(0,255,100);
+    text-decoration: none;
+}
+
+div.label{
+    float:left;
+    padding-left:5%;
+    
+        
+}
+
+div.value{
+    float:right;
+    padding-right:5%;
+}
+div.journalEvent{
+    margin:auto;
+}
+s{
+    box-shadow: 0px 0px 5px rgb(255,255,255);
+    width:2px;
+    float:left;
+}
+fieldset{
+    box-shadow: 0px 0px 5px rgb(255,255,255);
+}
+
+div.footer{
+    position:absolute;
+   bottom:0;
+   
+    margin-top:20px;
+    width:90%;
+    background-color:rgba(33,33,33,0.0);
+    clear:both;
+    margin:auto;
+    padding:10px;
+    font-size: 12px;
+    
+}

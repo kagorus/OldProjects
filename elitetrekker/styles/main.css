@@ -1,0 +1,213 @@
+
+/* 
+    Created on : 23-Mar-2015, 21:00:28
+    Author     : kagorus
+*/
+
+ 
+    
+ @font-face {
+    font-family: 'eurocaps'; /*a name to be used later*/
+    src: url('EUROCAPS.ttf'); /*URL to font*/
+}   
+html {
+    background-color:black;
+    background-image:url("../img/minibgpng.png"),url("");
+    /*background-color:#666;*/
+    color:rgb(255,119,0);
+    font-family: 'eurocaps';
+    font-size: 15px;
+    height:80%;
+    background-attachment: fixed;
+}
+body{
+    background-image:url("../img/minibgcontent.png");
+    /*background-color:rgba(2,2,2,0.8);*/
+     margin:auto;
+    
+   
+    width:800px;
+    box-shadow: 0px 0px 5px rgb(255,255,255);
+}
+
+a {
+    color:rgb(0,255,100);
+    text-decoration: none;
+}
+
+div.Header{
+    
+    margin-top:20px;
+    float:left;
+    background-color:rgba(33,33,33,0.7);
+    width:95%;
+
+    
+    padding:10px;
+    margin-bottom:15px;
+    margin-left:40vw;
+    
+}
+div.Details{
+    clear:both;
+    float:left;
+    width:100%;
+    
+    margin-top:20px;
+    padding:10px;
+    background-color:rgba(33,33,33,0.7);
+    
+}
+
+
+div.body{
+    margin-top:20px;
+    width:90%;
+    height:80%;
+    /*float:left;*/
+    padding:10px;
+    margin-bottom:15px;
+    
+    margin:auto;
+}
+
+
+
+
+
+
+div.footer{
+    margin-top:20px;
+    width:90%;
+    background-color:rgba(33,33,33,0.0);
+    clear:both;
+    margin:auto;
+    padding:10px;
+    font-size: 12px;
+    
+}
+
+div.values{
+    
+}
+
+div.Content{
+    
+}
+
+div.Item_Title{
+    width:80%;
+    
+}
+
+div.Item_Content{
+    
+}
+
+input[type="text"] {
+    width:100px;
+    text-align: center;
+}
+label {
+    text-align: right;
+    width:330px;
+    display:inline-block;
+}
+input.system{
+    width:270px;
+}
+
+div.planet_data{
+    
+    width:23%;
+    min-height:95px;
+    max-height:95px;
+    border-style:solid;
+    border-radius:10px;
+    float:left;
+    margin:1px;
+    border-color: rgb(255,119,0);
+    color:rgb(0,153,255);
+    border-width:1px;
+}
+div.planet_data_title{
+    padding:1px;
+    width:100%;
+    min-height:33px;
+    border-bottom-style:solid;
+    border-color: rgb(255,119,0);
+    font-size: 13px;
+    text-align:center;
+    float:left;
+    margin:1px;
+    
+    
+}
+div.planet_data_cont{
+    font-size: 15px;
+    text-align:center;
+}
+div.system{
+    font-size: 40px;
+    float:left;
+    width:100%;
+}
+
+
+hr {
+    border-color:rgb(0,153,255);
+}
+button{
+    background-color: rgba(255,119,0,0.3);
+    border: none;
+    color: rgb(255,119,0);
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'eurocaps';
+    display: inline-block;
+    font-size: 16px;
+    /*margin-left:40%;*/
+    
+    border-style:solid;
+    border-width:1px;
+    border-radius:5px;
+}
+input{
+    
+    background-color: rgba(255,119,0,0.3);
+    border: none;
+    color: rgb(255,119,0);
+    
+    text-align: center;
+    font-family: 'eurocaps';
+    display: inline-block;
+    
+    
+
+}
+div.total{
+    float:left;
+    width:80%;
+    font-size:40px;
+}
+
+div.panel{
+    
+    clear:both;
+    float:left;
+    width:100%;
+    border-style:solid;
+    border-width:1px;
+    border-radius:1px;
+    margin-top:20px;
+    padding:10px;
+    /*background-color:rgba(100,100,100,0.7);*/
+    
+
+}
+h1,h2{
+    color:rgb(255,255,255);
+}
+i{
+    font-size:14px;
+}
